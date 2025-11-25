@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.vsix filter=lfs diff=lfs merge=lfs -text
+ms-dotnettools.csharp.vsix filter=lfs diff=lfs merge=lfs -text
+ms-vscode.cpptools.vsix filter=lfs diff=lfs merge=lfs -text
